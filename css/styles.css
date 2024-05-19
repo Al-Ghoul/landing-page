@@ -1,1 +1,30 @@
+body {
+  display: flex;
+  margin: 0;
+}
 
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  background-color: #1F2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.navigation {
+  align-self: center;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 18px;
+  color: white;
+  gap: 16px;
+}
