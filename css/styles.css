@@ -167,3 +167,10 @@ nav ul {
   padding: 0 32px;
   height: 32px;
 }
+
+footer {
+  background-color: #1F2937;
+  color: #FFF;
+  text-align: center;
+  padding: 32px;
+}
