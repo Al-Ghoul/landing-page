@@ -1,13 +1,22 @@
 body {
-  display: flex;
   margin: 0;
 }
 
 .header {
-  display: flex;
-  flex: 1;
-  justify-content: space-around;
   background-color: #1F2937;
+}
+
+.header div,
+.hero-section>div {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.hero-section> div {
+  gap: 48px;
 }
 
 .logo {
@@ -27,4 +36,49 @@ nav ul {
   font-size: 18px;
   color: white;
   gap: 16px;
+}
+
+.hero-section {
+  background-color: #1F2937;
+  padding: 48px 0;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #6d747d;
+  height: 250px;
+}
+
+.hero-img p {
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.btn-signup {
+  background-color: #3882F6;
+  color: #FFF;
+  border-radius:  0.375rem;
+  padding: 4px 24px;
+  border: none;
+  margin-top: 8px;
 }
